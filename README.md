@@ -1,4 +1,6 @@
 
 ### Tamil weather widgets (ios)
 
-![tamil weather widgets](IMG_9722.jpg)
+
+<img src="IMG_9722.jpg" alt="tamil weather widgets" width="500"/>
+
