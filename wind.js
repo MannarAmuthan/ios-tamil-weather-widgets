@@ -5,7 +5,8 @@
 
 
 const openweather_api_key = ""
-
+const font_size = 11
+const image_size = 13
 
 
 let latLong = {}
@@ -30,7 +31,7 @@ let states = [
   wind_deg+"°"
 ];
 
-let font = new Font("GillSans-Light", 11);
+let font = new Font("GillSans-Light", font_size);
 const font_color = "ffffff"
 
 
@@ -52,7 +53,7 @@ let angle = fm.readImage(fm.documentsDirectory() + "/angle.png");
 let image_wid = widget.addImage(angle);
 image_wid.tintColor = new Color(font_color);
 image_wid.centerAlignImage();
-image_wid.imageSize = new Size(13,13);
+image_wid.imageSize = new Size(image_size,image_size);
 
 
 widget.presentSmall(); 
