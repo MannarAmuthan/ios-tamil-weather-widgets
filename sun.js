@@ -5,8 +5,7 @@
 
 
 const openweather_api_key = ""
-
-
+const font_size = 11
 
 function convertUnixTimeToLocalTime(unixTime, timezoneOffset) {
     const date = new Date((unixTime)*1000);
@@ -47,7 +46,7 @@ let states = [
   "வரை"
 ];
 
-let font = new Font("GillSans-Light", 11);
+let font = new Font("GillSans-Light", font_size);
 
 
 
@@ -55,7 +54,6 @@ let widget = new ListWidget();
 
 for (const x of states){ 
   var one = widget.addText(x);
-  // one.font = Font.thinMonospacedSystemFont(11);
   one.font = font;
   one.centerAlignText();
   
