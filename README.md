@@ -1,7 +1,7 @@
 
 ### Tamil weather widgets (ios)
 
-These are ios lock screen widgets, you can use it as normal widget also.
+These are ios lock screen widgets (using Scriptables(https://scriptable.app/)), you can use it as normal widget also.
 
 <img src="IMG_9722.jpg" alt="tamil weather widgets" width="500"/>
 
