@@ -4,7 +4,10 @@
 
 
 
-const openweather_api_key = "" 
+const openweather_api_key = ""
+const font_size = 11
+
+
 
 const paruvangal = [
   { start: "04-14", end: "05-13", climate: "இளவேனில்" },
@@ -126,10 +129,7 @@ let states = [
 ];
 
 
-// let font = new Font("Menlo-Regular", 10);
-// let font = new Font("DIN Alternate", 11);
-
-let font = new Font("GillSans-Light", 11);
+let font = new Font("GillSans-Light", font_size);
 
 
 
@@ -137,7 +137,6 @@ let widget = new ListWidget();
 
 for (const x of states){ 
   var one = widget.addText(x);
-  // one.font = Font.thinMonospacedSystemFont(11);
   one.font = font;
   one.centerAlignText();
 }
