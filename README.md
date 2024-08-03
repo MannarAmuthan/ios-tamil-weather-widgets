@@ -21,6 +21,9 @@ Since these are lock screen widgets, you can change color of these widgets, like
 In widget scripts, you can change `font_size`, based on your screen size if it is unsuitable.
 
 
+In `weather` widget , there is a array called `paruvangal` which you might need to modify if you are not in India, China, or other Tropical Regions.
+
+
 #### Note
 
 I tested this on my iPhone with the iOS 18 beta version, feel free to raise issues if you face any.
