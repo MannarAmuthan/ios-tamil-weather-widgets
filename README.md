@@ -26,5 +26,5 @@ In `weather` widget , there is a array called `paruvangal` which you might need 
 
 #### Note
 
-I tested this on my iPhone with the iOS 18 beta version, feel free to raise issues if you face any.
+I tested this on my iPhone with the iOS 18 beta version, feel free to raise issues/feature requests/improvements if you have any.
 
